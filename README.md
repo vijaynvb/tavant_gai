@@ -31,3 +31,23 @@ Web Solutions:
     2. client side session management -> for every request this details will be sent to server to remaind the session
         browser based web application -> cookies, headers for managing sessions
         web services api -> jwt, oauth tokens
+
+
+ChatGPT [application]            ->          OpenAI GPT-5 [LLM model]
+textbox [limitation]
+fileupload [limitation]
+                            [32k, 8k, 400k]
+                Prompt[content]. -> 
+
+
+bot-role=you are it support chat bot who is helping to solve the computer issues.
+knowledge1 = laptop, desktop, mobile ...
+input = my system is not starting
+output=write the response not more than 2 sentences.
+
+templatestring = "System Instruction: {bot-role}
+context: {knowledge}
+input data: {input}
+outindicator: {output}"
+
+prompt =  promptFormater.format(templatestring, bot-role, knowledge=knowledge1, input, output)
