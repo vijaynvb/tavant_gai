@@ -1,0 +1,8 @@
+langchain_classic 
+langchain_community 
+langchain_aws 
+PyPDF2 
+tiktoken 
+faiss-cpu
+streamlit
+python-dotenv

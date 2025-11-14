@@ -64,4 +64,12 @@ RAG -> Retrevial Augment Generate
 
     Step 1: prepare the data first for filtering 
 
-    Step 2: prompt -> filter the prepared data with the prompt's intention and append it before sending it to llm
+    Step 2: prompt -> filter the prepared data with the prompt's intention and append it before sending it to llm 
+
+
+Chat with PDF: Front end [streamlit]
+    1. upload a pdf 
+    2. interact with the pdf 
+
+    1. pdf -> RAG -> Vector data store 
+    2. Prompts -> Retrival + Augment + generate
