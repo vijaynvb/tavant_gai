@@ -51,3 +51,17 @@ input data: {input}
 outindicator: {output}"
 
 prompt =  promptFormater.format(templatestring, bot-role, knowledge=knowledge1, input, output)
+
+
+you'r a intelegent bot answer all questions in one word for the given medical field questions
+how define body
+
+
+user uploading a pdf -> 
+    prompt: summarize the document 
+
+RAG -> Retrevial Augment Generate
+
+    Step 1: prepare the data first for filtering 
+
+    Step 2: prompt -> filter the prepared data with the prompt's intention and append it before sending it to llm
